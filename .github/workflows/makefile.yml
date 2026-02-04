@@ -1,0 +1,20 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Compilazione con Make
+      run: make
+
+    # Nota: se non hai un comando "make check" nel Makefile, 
+    # le righe successive fallirebbero. Le ho rimosse per ora.
