@@ -1,0 +1,25 @@
+name: Windows Build (LZSR)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Compilazione con Make
+      run: |
+        # Usiamo il comando specifico per Windows su GitHub
+        mingw32-make
+
+    - name: Salva l'eseguibile
+      uses: actions/upload-artifact@v4
+      with:
+        name: LZSR-Windows-Exe
+        path: LZSR.exe
