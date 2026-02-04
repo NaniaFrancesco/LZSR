@@ -3,6 +3,9 @@ High-performance data archiver - Dual Licensed (GPLv3/Commercial)
 
 Zenodo DOI: https://zenodo.org/records/18485963
 
+HOME :
+http://heartofcomp.altervista.org/
+
 ##  Licensing
 
 **LZSR** is a dual-licensed project. We believe in the power of open-source while providing a path for commercial integration.
