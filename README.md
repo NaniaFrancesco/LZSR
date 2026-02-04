@@ -24,4 +24,28 @@ If the GPLv3's copyleft requirements (specifically the obligation to share your 
 
 To purchase a commercial license or request a quote, please contact us at: miadebora@hotmail.it
 
+Usage: LZSR <command> -<switch ..> <archive> <files...> <in path> <out path>
+<Commands>
+ a                 Add files to archive
+ x                 Extract files in destination path
+ v                 Verify all files in Archive (CRC32)
+ l                 List archive
+ 
+<Switches>
+ r                Recurse subdirectories
+ s                Solid Mode ON [defaul OFF]
+ v                Verbose Mode
+ b                [default -b1] set LZbuffer memory     -b0 [32MB]...-b5[1GB]
+ 
+Examples of compression :
+lzsr    a c:\archive c:\infile
+lzsr    a -r  c:\archive c:\path
+lzsr    a -r  -b5 archive path
+lzsr    a -r -v archive path\*.bmp
+Example of decompression :
+lzsr    x  c:\archive c:\outpath
+lzsr    x  archive outpath
+lzsr    x archive outpath\*.bmp
+ 
+
 
