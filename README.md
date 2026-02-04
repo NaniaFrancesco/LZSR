@@ -7,7 +7,7 @@ HOME :
 http://heartofcomp.altervista.org/
 
 DOWNLOAD EXE:
-[http://heartofcomp.altervista.org/LZSR3.zip](http://heartofcomp.altervista.org/lzsr3.zip)
+http://heartofcomp.altervista.org/lzsr3.zip
 
 ##  Licensing
 
