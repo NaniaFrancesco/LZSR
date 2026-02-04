@@ -6,6 +6,9 @@ Zenodo DOI: https://zenodo.org/records/18485963
 HOME :
 http://heartofcomp.altervista.org/
 
+DOWNLOAD EXE:
+http://heartofcomp.altervista.org/LZSR3.zip
+
 ##  Licensing
 
 **LZSR** is a dual-licensed project. We believe in the power of open-source while providing a path for commercial integration.
