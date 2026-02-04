@@ -22,15 +22,15 @@ If the GPLv3's copyleft requirements (specifically the obligation to share your 
 - **Dedicated Support:** Direct access to the lead developer for integration assistance.
 - **Legal Indemnification:** Full ownership warranty for corporate compliance.
 
-To purchase a commercial license or request a quote, please contact us at: miadebora@hotmail.it
+ To purchase a commercial license or request a quote, please contact us at: miadebora@hotmail.it
 
 Usage: LZSR <command> -<switch ..> <archive> <files...> <in path> <out path>
+
 <Commands>
  a                 Add files to archive
  x                 Extract files in destination path
  v                 Verify all files in Archive (CRC32)
  l                 List archive
- 
 <Switches>
  r                Recurse subdirectories
  s                Solid Mode ON [defaul OFF]
@@ -46,6 +46,7 @@ Example of decompression :
 lzsr    x  c:\archive c:\outpath
 lzsr    x  archive outpath
 lzsr    x archive outpath\*.bmp
+
  
 
 
