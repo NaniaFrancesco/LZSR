@@ -3,11 +3,10 @@ High-performance data archiver - Dual Licensed (GPLv3/Commercial)
 
 Zenodo DOI: https://zenodo.org/records/18485963
 
-HOME :
-http://heartofcomp.altervista.org/
+
 
 DOWNLOAD EXE:
-http://heartofcomp.altervista.org/lzsr3.zip
+http://heartofcomp.altervista.org/
 
 ##  Licensing
 
