@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1770223393 source:c:\users\administrator\documents\lzsr\main.cpp
+	"Common.h"
+	"DirectCoder.h"
+	"BitEncoder.h"
+	"FileOp.h"
+	"Filters.h"
+	"Analize.h"
+	"Engine.h"
+	"Archive.h"
+
+1770222489 c:\users\administrator\documents\lzsr\common.h
+	<cstdio>
+	<malloc.h>
+	<shlobj.h>
+	<math.h>
+	<fstream>
+	<sstream>
+	<vector>
+	<iterator>
+	<algorithm>
+	<tchar.h>
+	<thread>
+	<windows.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<iostream>
+	<string>
+	<io.h>
+
+1770222489 c:\users\administrator\documents\lzsr\directcoder.h
+
+1770222489 c:\users\administrator\documents\lzsr\bitencoder.h
+
+1770223068 c:\users\administrator\documents\lzsr\fileop.h
+	<dirent.h>
+	<fnmatch.h>
+
+1770222489 c:\users\administrator\documents\lzsr\filters.h
+
+1770222489 c:\users\administrator\documents\lzsr\analize.h
+
+1770222489 c:\users\administrator\documents\lzsr\engine.h
+
+1770222489 c:\users\administrator\documents\lzsr\archive.h
+
