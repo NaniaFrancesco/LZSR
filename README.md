@@ -29,6 +29,12 @@ If the GPLv3's copyleft requirements (specifically the obligation to share your 
 
  To purchase a commercial license or request a quote, please contact us at: miadebora@hotmail.it
 
+To compile with Code::blocks (GCC 15.2)
+
+Compiler flags: -O4  -march=x86-64-v2 -mtune=generic -ffast-math  -fpermissive -std=c++23 -finline-functions 
+Linker flags : -flto -static-libgcc -static-libstdc++ -static
+
+
 Usage: LZSR <command> -<switch ..> <archive> <files...> <in path> <out path>
 
 <Commands>
